@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.9f1 (108be757e447) revision 1084391'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1052; Version 2009; 64bit' Language: 'ru' Physical Memory: 6025 MB
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'ru' Physical Memory: 6025 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Владек/Game-of-nig/Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63849
+52875
 Successfully changed project path to: C:/Users/Владек/Game-of-nig/Game
 C:/Users/Владек/Game-of-nig/Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.19 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.79 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -35,179 +35,1320 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003218 seconds.
+Registered in 0.003025 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.25 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 35.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.795 seconds
+- Completed reload, in  1.430 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002058 seconds.
+Registered in 0.001500 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.353 seconds
+- Completed reload, in  1.194 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.24 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1126 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.5 MB.
-System memory in use after: 78.5 MB.
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1596.
-Total: 2.025000 ms (FindLiveObjects: 0.153700 ms CreateObjectMapping: 0.050500 ms MarkObjects: 1.676800 ms  DeleteObjects: 0.142400 ms)
+Total: 2.250500 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.054700 ms MarkObjects: 1.850100 ms  DeleteObjects: 0.157900 ms)
 
 ========================================================================
 Received Import Request.
+  path: Assets/Content/Textura_snega.tga
+  artifactKey: Guid(014afabd89c04fd48aa6c2308d21c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Textura_snega.tga using Guid(014afabd89c04fd48aa6c2308d21c37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31ea36015a797212f3b8fb5740ffe94') in 0.229925 seconds
+  Import took 0.233117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
   path: Assets/Content/LOAD.png
   artifactKey: Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/LOAD.png using Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c2c18eb5eea2cb859a4d83fc786ba1') in 0.337423 seconds
-  Import took 0.361934 seconds .
+Start importing Assets/Content/LOAD.png using Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9515e638ad146ddf4b8ec75ccaf386d3') in 0.315557 seconds
+  Import took 0.318421 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/Content/START.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3cdaae01cc2a58a6dadfac6d57b573') in 0.028506 seconds
-  Import took 0.044873 seconds .
+  Time since last request: 0.000349 seconds.
+  path: Assets/Content/Menu.png
+  artifactKey: Guid(a1e6c5233a0a61e439c9158ac5e514e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Menu.png using Guid(a1e6c5233a0a61e439c9158ac5e514e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a17b6c3d6b254bf8c5c8d77bcab0b3') in 0.035640 seconds
+  Import took 0.038827 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Content/NEWGAME.png
-  artifactKey: Guid(a4634a82bfa39e0478b096cb9a2b4558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/NEWGAME.png using Guid(a4634a82bfa39e0478b096cb9a2b4558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a054b43a80148760a0dfd6793a7c4821') in 0.048259 seconds
-  Import took 0.068032 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Content/EXIT.png
-  artifactKey: Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/EXIT.png using Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f24eeed25982d25bb7d274b62cce7a') in 0.032541 seconds
-  Import took 0.040604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.999466 seconds.
-  path: Assets/Content/START.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf87a311e8a80fce6e508eb408f5bc22') in 0.052108 seconds
-  Import took 0.066728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.580450 seconds.
-  path: Assets/Content/START.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c05ae6b55f78e49f65499318256dc1') in 0.123614 seconds
-  Import took 0.149622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 442.439543 seconds.
-  path: Assets/Content/LOAD.png
-  artifactKey: Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/LOAD.png using Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1847437afde5d3716ef0d1d62440b622') in 0.031171 seconds
-  Import took 0.047875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.764448 seconds.
-  path: Assets/Content/EXIT.png
-  artifactKey: Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/EXIT.png using Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268a3f2f317f25f0f474e2c66c5254e0') in 0.042499 seconds
-  Import took 0.067238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1087.532635 seconds.
-  path: Assets/Content/Start.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/Start.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b61bd91eff8263b2a24ffe762011796') in 1.824942 seconds
-  Import took 2.024103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.644705 seconds.
-  path: Assets/Content/Start.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/Start.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4173a31e47d91bcf9717e329ff8e2a') in 0.108360 seconds
-  Import took 0.172655 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 493.217896 seconds.
-  path: Assets/Content/START.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b86eaf6109d0c4aa26022076c59045') in 0.102604 seconds
-  Import took 0.202983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.625843 seconds.
-  path: Assets/Content/START.png
-  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120f6053afc2caf804a6e550fc7949c0') in 0.059018 seconds
-  Import took 0.094013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 287.444141 seconds.
-  path: Assets/Content/EXIT.png
-  artifactKey: Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/EXIT.png using Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3a247185e1972de55feb2ad01aee5a') in 0.093279 seconds
-  Import took 0.115825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.309267 seconds.
-  path: Assets/Content/EXIT.png
-  artifactKey: Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/EXIT.png using Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cb8c779cb99c2ba3b76ef451b42592') in 0.086374 seconds
-  Import took 0.145216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 225.234634 seconds.
-  path: Assets/Content/LOAD.png
-  artifactKey: Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/LOAD.png using Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf90d102361d791b3e3a5bbb497fc0f3') in 0.088374 seconds
-  Import took 0.098744 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
+  Time since last request: 0.000300 seconds.
   path: Assets/Content/OPTIONS.png
   artifactKey: Guid(ffc5d68df28ea9f4091a5aef5a18e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/OPTIONS.png using Guid(ffc5d68df28ea9f4091a5aef5a18e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8429f7e8295a0f1d861483dea3fa24') in 0.091984 seconds
-  Import took 0.116821 seconds .
+Start importing Assets/Content/OPTIONS.png using Guid(ffc5d68df28ea9f4091a5aef5a18e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a54e7cf54b537adf43e0cfbdf8823e5') in 0.033050 seconds
+  Import took 0.037378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.058827 seconds.
-  path: Assets/Content/LOAD.png
-  artifactKey: Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/LOAD.png using Guid(373e9dc3e3360774da2394d98d699352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8587666b3eda2aa32d0e96af9a5c971a') in 0.121533 seconds
-  Import took 0.149837 seconds .
+  Time since last request: 0.000491 seconds.
+  path: Assets/Content/START.png
+  artifactKey: Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/START.png using Guid(6cc3919eb2f4ed140917140ecbcbed5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e56dc5898c641b42a9e62651e71e93') in 0.029218 seconds
+  Import took 0.033137 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 192.160430 seconds.
-  path: Assets/Content/OPTIONS.png
-  artifactKey: Guid(ffc5d68df28ea9f4091a5aef5a18e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Content/OPTIONS.png using Guid(ffc5d68df28ea9f4091a5aef5a18e70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a5e3a1795ff0c4aa1da03089f7b45f') in 0.073897 seconds
-  Import took 0.108050 seconds .
+  Time since last request: 0.000117 seconds.
+  path: Assets/Content/EXIT.png
+  artifactKey: Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/EXIT.png using Guid(86a6e0557d8c7ff4f82a09a0f2dce579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e138c44fc0b3cbc823d724953a03554') in 0.059129 seconds
+  Import took 0.063458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Content/main_menu..mp3
+  artifactKey: Guid(cc1b48a79aa04864295e15927df68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/main_menu..mp3 using Guid(cc1b48a79aa04864295e15927df68b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19455266ce67e614eccd6bbc69215926') in 0.348191 seconds
+  Import took 0.352055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Content/Без имени-1.jpg
+  artifactKey: Guid(7a40014dead6f194eafe50c5bfe5909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/Без имени-1.jpg using Guid(7a40014dead6f194eafe50c5bfe5909f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76410318987d0cb8fcdbad6ee57ce61') in 0.050694 seconds
+  Import took 0.055165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1057.743385 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002088 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201408 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001192 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000773 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001208 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040245 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001153 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001167 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039624 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000887 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040667 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001324 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044258 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000886 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042892 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000887 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038975 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001174 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041293 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001329 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045204 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001330 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041250 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000870 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043955 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001263 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041622 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001174 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040722 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001350 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037590 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001267 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040132 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000880 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044928 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001014 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039538 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000890 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039817 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001160 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042542 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001189 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041053 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000962 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049182 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001480 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040996 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001181 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041666 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001173 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050015 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001175 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038657 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000881 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040722 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001325 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043383 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001172 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042423 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001173 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039682 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001194 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040715 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001099 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044413 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000876 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039728 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001201 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039742 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001012 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045712 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001220 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042369 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001264 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038935 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001156 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047066 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001179 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040970 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001174 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039219 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001822 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.005203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038744 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001176 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044730 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001276 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042384 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000889 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038198 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001168 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044364 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001207 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042701 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001261 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042377 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000906 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041154 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001205 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043001 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001279 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040608 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001159 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039780 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001173 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040630 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000978 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041937 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000885 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039853 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000915 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040259 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001208 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046001 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001797 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.005052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040774 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001181 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040847 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001236 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042840 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001182 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040528 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001381 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039829 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001169 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038666 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001194 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044991 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001174 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043362 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001012 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042051 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001178 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038732 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001175 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045191 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001166 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043905 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001453 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.006058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045166 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000919 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044565 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001211 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041100 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001231 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004558 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040234 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001191 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039833 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001181 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041650 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001062 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041201 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001371 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039585 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001175 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041867 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001187 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044141 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000901 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040719 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001080 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040188 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000914 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041663 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001770 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.099419 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001667 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.008002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072397 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001231 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.005145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039288 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001230 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039912 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001321 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045602 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001205 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.006260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047126 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001200 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042840 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001359 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041158 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001178 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043271 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001187 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043367 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000909 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039646 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000993 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041016 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000886 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044793 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000940 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056542 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001221 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040764 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001389 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042496 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001232 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045720 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001213 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044294 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001191 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004648 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.038887 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001292 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043585 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001213 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039097 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000919 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043314 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001188 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046213 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001234 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043912 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001181 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039249 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001219 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042611 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000940 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043117 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001256 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045239 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001169 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047029 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001304 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042749 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001243 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042231 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001189 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045328 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000897 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040291 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001169 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043308 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001523 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.005107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045524 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001062 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042618 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001207 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044523 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000888 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047399 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001220 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040411 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001219 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041170 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001385 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004076 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047452 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001170 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.004675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039767 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001052 seconds
+  ERROR: Build asset version error: assets/content/optionsmenu.png in SourceAssetDB has modification time of '2021-07-11T08:02:22.3579569Z' while content on disk has modification time of '2021-07-11T08:02:26.7357527Z'
+  Import took 0.003938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.919332 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12fec133291ef430532665204537d64') in 0.046990 seconds
+  Import took 0.063214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008099 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12fec133291ef430532665204537d64') in 0.020528 seconds
+  Import took 0.091141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.290836 seconds.
+  path: Assets/Content/OPTIONSMENU.png
+  artifactKey: Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSMENU.png using Guid(98cb0519f906455499c2a4f68611e05f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '438e000be8b1335e3aeaf4b954d99412') in 0.078585 seconds
+  Import took 0.115001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.820641 seconds.
+  path: Assets/Content
+  artifactKey: Guid(a2d18ec3aa4bd4a428ac6255709af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content using Guid(a2d18ec3aa4bd4a428ac6255709af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7e17e749fd4d87e4e4b52d24961cb') in 0.010039 seconds
+  Import took 0.037607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018680 seconds.
+  path: Assets/Content
+  artifactKey: Guid(a2d18ec3aa4bd4a428ac6255709af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content using Guid(a2d18ec3aa4bd4a428ac6255709af26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb7e17e749fd4d87e4e4b52d24961cb') in 0.011886 seconds
+  Import took 0.015231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.258190 seconds.
+  path: Assets/Content/OPTIONSBACK.png
+  artifactKey: Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBACK.png using Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8627ca527e2844c74495bc74a41ab0f0') in 0.088709 seconds
+  Import took 0.143964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.712332 seconds.
+  path: Assets/Content/OPTIONSBACK.png
+  artifactKey: Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBACK.png using Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9753ce4f9891d0cc7deda0773550aac5') in 0.058946 seconds
+  Import took 0.081214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 159.389413 seconds.
+  path: Assets/Content/OPTIONSBACK.png
+  artifactKey: Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBACK.png using Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be6b23fb2a5ce92a85d0ae51f775d37') in 0.071844 seconds
+  Import took 0.104108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.375291 seconds.
+  path: Assets/Content/OPTIONSBACK.png
+  artifactKey: Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBACK.png using Guid(a4e3f31f80144364aa51e168fed7e4e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4cf61a40c16685e2b8955996616a8db') in 0.041439 seconds
+  Import took 0.076956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.403262 seconds.
+  path: Assets/Content/OPTIONSBAC2K.png
+  artifactKey: Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBAC2K.png using Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22c0ed327a6f5d7e2b68df862c3e13') in 0.089967 seconds
+  Import took 0.107175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005349 seconds.
+  path: Assets/Content/OPTIONSBAC2K.png
+  artifactKey: Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBAC2K.png using Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22c0ed327a6f5d7e2b68df862c3e13') in 0.061245 seconds
+  Import took 0.065488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.414513 seconds.
+  path: Assets/Content/OPTIONSBAC2K.png
+  artifactKey: Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Content/OPTIONSBAC2K.png using Guid(40320742d14e4c24d92788fa07e842e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793d6d83ce37b18e0bd59bf628a88e84') in 0.030657 seconds
+  Import took 0.040258 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
