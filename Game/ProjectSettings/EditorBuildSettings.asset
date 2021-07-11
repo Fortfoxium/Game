@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/ArcticStantionlvl1.unity
+    guid: f4456bb59500ea3439c084553f640b8a
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: ab8849960f5600448912fc8d87f55309
   m_configObjects: {}
