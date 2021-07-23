@@ -20,14 +20,12 @@ public class Control : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-
-         
     }
     void Update()
     {
         if (controller.isGrounded)
-                {
-            moveDir = new Vector3(Input.GetAxis("Horizontal")*speed, 0, Input.GetAxis("Vertical"));
+        {
+            moveDir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDir = transform.TransformDirection(moveDir);
             moveDir *= speed;
         }
